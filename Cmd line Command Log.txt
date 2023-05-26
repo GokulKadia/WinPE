@@ -1,0 +1,837 @@
+Microsoft Windows [Version 10.0.19044.1826]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>%systemdrive%
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+
+Error: 3
+
+The system cannot find the path specified.
+
+The DISM log file can be found at C:\Windows\Logs\DISM\dism.log
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+
+Error: 0xc1420117
+
+The directory could not be completely unmounted.  This is usually due to applications that still have files opened within the mount directory.  Close these files and unmount again to complete the unmount process.
+
+The DISM log file can be found at C:\Windows\Logs\DISM\dism.log
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+
+Error: 0xc142011d
+
+The specified mounted image cannot be committed back into the WIM.  This occurs when an image has been through a partial unmount or when an image is still being mounted.  If this image was unmounted with commit earlier, then the commit probably succeeded.  Please validate that this is the case and then unmount without commit.
+
+The DISM log file can be found at C:\Windows\Logs\DISM\dism.log
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+
+Error: 0xc142011d
+
+The specified mounted image cannot be committed back into the WIM.  This occurs when an image has been through a partial unmount or when an image is still being mounted.  If this image was unmounted with commit earlier, then the commit probably succeeded.  Please validate that this is the case and then unmount without commit.
+
+The DISM log file can be found at C:\Windows\Logs\DISM\dism.log
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+
+Error: 0xc1420127
+
+The specified image in the specified wim is already mounted for read/write access.
+
+The DISM log file can be found at C:\Windows\Logs\DISM\dism.log
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /discard
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>md "C:\Users\Admin\Desktop\WINPEMount\Windows\CustomApp"
+
+C:\Windows\system32>Xcopy C:\Users\Admin\Desktop\ImagePullPush\ImagePullPush\ImagePullPush\bin\Debug "C:\Users\Admin\Desktop\WINPEMount\Windows\CustomApp"
+C:\Users\Admin\Desktop\ImagePullPush\ImagePullPush\ImagePullPush\bin\Debug\ImagePullPush.exe
+C:\Users\Admin\Desktop\ImagePullPush\ImagePullPush\ImagePullPush\bin\Debug\ImagePullPush.exe.config
+C:\Users\Admin\Desktop\ImagePullPush\ImagePullPush\ImagePullPush\bin\Debug\ImagePullPush.pdb
+3 File(s) copied
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /discard
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount /?
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+No help topic could be found for the unmount option.
+Specify an image to see relevant help topics, using either the /Image or
+/Online command-line option:
+
+/Image:<path_to_offline_image>
+
+  This is the path to the root directory of the offline Windows image.
+
+    Example:
+      DISM.exe /Image:C:\test\offline /?
+
+/Online
+
+  Specifies that the operation is to be performed against the running Windows
+  installation.
+
+    Example:
+      DISM.exe /Online /?
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Xcopy C:\Users\Admin\Desktop\ImagePullPush\ImagePullPush\ImagePullPush\bin\Debug "C:\Users\Admin\Desktop\WINPEMount\Windows\CustomApp"
+Does C:\Users\Admin\Desktop\WINPEMount\Windows\CustomApp specify a file name
+or directory name on the target
+(F = file, D = directory)?
+Does C:\Users\Admin\Desktop\WINPEMount\Windows\CustomApp specify a file name
+or directory name on the target
+(F = file, D = directory)?
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /discard
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Xcopy C:\Users\Admin\Desktop\1.bat "C:\Users\Admin\Desktop\WINPEMount\Windows\CustomApp"
+C:\Users\Admin\Desktop\1.bat
+1 File(s) copied
+
+C:\Windows\system32>Xcopy C:\Users\Admin\Desktop\1.bat "C:\Users\Admin\Desktop\WINPEMount\Windows\CustomApp"
+Overwrite C:\Users\Admin\Desktop\WINPEMount\Windows\CustomApp\1.bat (Yes/No/All)? y
+C:\Users\Admin\Desktop\1.bat
+1 File(s) copied
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /discard
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>
+C:\Windows\system32>
+C:\Windows\system32>.
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>
+C:\Windows\system32>
+C:\Windows\system32>
+C:\Windows\system32>
+C:\Windows\system32>
+C:\Windows\system32>Xcopy C:\Users\Admin\Desktop\1.bat "C:\Users\Admin\Desktop\WINPEMount\Windows\CustomApp"
+C:\Users\Admin\Desktop\1.bat
+1 File(s) copied
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /discard
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>dism /unmount-image /?
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+
+/Unmount-Image /MountDir:<target_mount_directory> {/Discard |
+  /Commit [/Append] [/CheckIntegrity]}
+
+  Unmounts the WIM or VHD. Use /Commit to save the changes or /Discard to
+  discard the changes.
+  Use /CheckIntegrity to detect and track WIM file corruption.
+  Use /Append to add the image to an existing .wim file.
+
+    Examples:
+      DISM.exe /Unmount-Image /MountDir:C:\test\offline /Commit
+      DISM.exe /Unmount-Image /MountDir:C:\test\offline /Discard
+
+
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Get-Packages /Image:"C:\Users\Admin\Desktop\WINPEMount"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Image Version: 10.0.22621.1
+
+Packages listing:
+
+Package Identity : Microsoft-Windows-WinPE-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.22621.1
+State : Installed
+Release Type : Language Pack
+Install Time : 5/7/2022 5:35 AM
+
+Package Identity : Microsoft-Windows-WinPE-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Foundation
+Install Time : 5/7/2022 5:29 AM
+
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+
+Error: 87
+
+A required option is missing from the command-line.
+Ensure that /commit or /discard is specified.
+
+The DISM log file can be found at C:\Windows\Logs\DISM\dism.log
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>dism /image:"C:\Users\Admin\Desktop\WINPEMount" /add-package /packagepath: "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-Scripting.cab"
+
+Error: 87
+
+The /packagepath: option is missing a required argument.
+For more information, refer to the help for the /packagepath: option.
+
+The DISM log file can be found at C:\Windows\Logs\DISM\dism.log
+
+C:\Windows\system32>dism /image:"C:\Users\Admin\Desktop\WINPEMount" /add-package /packagepath:"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-Scripting.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Image Version: 10.0.22621.1
+
+Processing 1 of 1 - Adding package WinPE-Scripting-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>ism /image:"C:\Users\Admin\Desktop\WINPEMount" /add-package /packagepath:"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-WMI.cab"
+'ism' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>dism /image:"C:\Users\Admin\Desktop\WINPEMount" /add-package /packagepath:"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-WMI.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Image Version: 10.0.22621.1
+
+Processing 1 of 1 - Adding package WinPE-WMI-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>dism /image:"C:\Users\Admin\Desktop\WINPEMount" /add-package /packagepath:"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-Netfx.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Image Version: 10.0.22621.1
+
+Processing 1 of 1 - Adding package WinPE-NetFx-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>dism /image:"C:\Users\Admin\Desktop\WINPEMount" /add-package /packagepath:"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-SecureStartup.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Image Version: 10.0.22621.1
+
+Processing 1 of 1 - Adding package WinPE-SecureStartup-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>dism /image:"C:\Users\Admin\Desktop\WINPEMount" /add-package /packagepath:"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-EnhancedStorage.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Image Version: 10.0.22621.1
+
+Processing 1 of 1 - Adding package WinPE-EnhancedStorage-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>dism /image:"C:\Users\Admin\Desktop\WINPEMount" /add-package /packagepath:"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-Dot3Svc.cab"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Image Version: 10.0.22621.1
+
+Processing 1 of 1 - Adding package WinPE-Dot3Svc-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Get-Packages /Image:"C:\Users\Admin\Desktop\WINPEMount"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Image Version: 10.0.22621.1
+
+Packages listing:
+
+Package Identity : Microsoft-Windows-WinPE-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.22621.1
+State : Installed
+Release Type : Language Pack
+Install Time : 5/7/2022 5:35 AM
+
+Package Identity : Microsoft-Windows-WinPE-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Foundation
+Install Time : 5/7/2022 5:29 AM
+
+Package Identity : WinPE-Dot3Svc-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 11:06 AM
+
+Package Identity : WinPE-EnhancedStorage-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 11:06 AM
+
+Package Identity : WinPE-NetFx-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 11:05 AM
+
+Package Identity : WinPE-Scripting-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 10:58 AM
+
+Package Identity : WinPE-SecureStartup-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 11:05 AM
+
+Package Identity : WinPE-WMI-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 10:59 AM
+
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Get-Packages /Image:"C:\Users\Admin\Desktop\WINPEMount"
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Image Version: 10.0.22621.1
+
+Packages listing:
+
+Package Identity : Microsoft-Windows-WinPE-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.22621.1
+State : Installed
+Release Type : Language Pack
+Install Time : 5/7/2022 5:35 AM
+
+Package Identity : Microsoft-Windows-WinPE-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Foundation
+Install Time : 5/7/2022 5:29 AM
+
+Package Identity : WinPE-Dot3Svc-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 11:06 AM
+
+Package Identity : WinPE-EnhancedStorage-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 11:06 AM
+
+Package Identity : WinPE-NetFx-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 11:05 AM
+
+Package Identity : WinPE-Scripting-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 10:58 AM
+
+Package Identity : WinPE-SecureStartup-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 11:05 AM
+
+Package Identity : WinPE-WMI-Package~31bf3856ad364e35~amd64~~10.0.22621.1
+State : Installed
+Release Type : Feature Pack
+Install Time : 5/25/2023 10:59 AM
+
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Mounting image
+[==========================100.0%==========================]
+The operation completed successfully.
+
+C:\Windows\system32>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+Deployment Image Servicing and Management tool
+Version: 10.0.19041.844
+
+Saving image
+[==========================100.0%==========================]
+Unmounting image
+[==========================100.0%==========================]
+The operation completed successfully.

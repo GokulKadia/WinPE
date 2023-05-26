@@ -1,0 +1,64 @@
+https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-mount-and-customize?view=windows-11
+https://www.youtube.com/watch?v=RQwCuu7dBIY
+https://www.youtube.com/watch?v=JmpAMUnbsaY
+https://stackoverflow.com/questions/67697322/how-can-i-get-an-application-to-run-in-winpe
+https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-add-packages--optional-components-reference?view=windows-11
+
+
+1) Install the Windows ADK  =>  https://www.bing.com/search?q=windows+ADK+download&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=windows+adk+downloa&sc=10-19&sk=&cvid=A2A5B7D5176D47E184372F725729E952&ghsh=0&ghacc=0&ghpl=
+
+2) Install the Windows PE add-on Package =>  https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/download-winpe--windows-pe?view=windows-11
+
+3) Run Deployement and imaging tool env as adminstrator
+
+4) in that type prompt $g
+5) cd
+6) copype amd64 %userprofile%\desktop\WinPE_x64
+7) makewinpemedia /iso %userprofile%\desktop\WinPE_x64 %userprofile%\desktop\WinPE_x64.iso
+8)  Diskpart
+	list disk
+	sel disk 1
+	clean
+	create partition primary
+	format fs=fat32 quick label="WinPE"
+	exit
+
+9) makewinpemedia /ufd %userprofile%\desktop\WinPE_x64 E:
+
+Launching App in WinPEShl.ini file in SYstem32 folder 
+https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpeshlini-reference-launching-an-app-when-winpe-starts?view=windows-11
+
+10)Mount Drive
+ DISM.exe /Mount-Wim /WimFile:E:\sources\boot.wim /index:1 /MountDir:C:\Users\Admin\Desktop\WINPEMount
+
+11) Unmount Image
+>Dism /Unmount-Image /MountDir:C:\Users\Admin\Desktop\WINPEMount /commit
+
+12)mkdir in WInPE
+md "C:\Users\Admin\Desktop\WINPEMount\Windows\CustomApp"
+
+13) Copy
+Xcopy C:\Users\Admin\Desktop\ImagePullPush\ImagePullPush\ImagePullPush\bin\Debug "C:\Users\Admin\Desktop\WINPEMount\Windows\CustomApp"
+
+14) Logs 
+sxstrace.exe Trace -logfile:FileName.log
+sxstrace.exe Parse -logfile:FileName.log -outfile:filename.txt
+
+15)add packages
+
+dism /image:"C:\Users\Admin\Desktop\WINPEMount" /add-package /packagepath:"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-Scripting.cab"
+dism /image:"C:\Users\Admin\Desktop\WINPEMount" /add-package /packagepath:"C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-WMI.cab"
+
+
+dism /image:C:\Mount /add-package /packagepath:"WinPE-Scripting.cab" /packagepath:"en-us\WinPE-Scripting_en-us.cab"
+dism /image:C:\Mount /add-package /packagepath:"WinPE-WMI.cab" /packagepath:"en-us\WinPE-WMI_en-us.cab"
+dism /image:C:\Mount /add-package /packagepath:"WinPE-NetFx.cab" /packagepath:"en-us\WinPE-NetFx_en-us.cab"
+dism /image:C:\Mount /add-package /packagepath:"WinPE-SecureStartup.cab" /packagepath:"en-us\WinPE-SecureStartup_en-us.cab"
+dism /image:C:\Mount /add-package /packagepath:"WinPE-EnhancedStorage.cab" /packagepath:"en-us\WinPE-EnhancedStorage_en-us.cab"
+dism /image:C:\Mount /add-package /packagepath:"WinPE-Dot3Svc.cab" /packagepath:"en-us\WinPE-Dot3Svc_en-us.cab"
+dism /unmount-wim /commit /mountdir:c:\mount
+
+Path to find Packages in System:
+C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs
+
+16) .net 4.0 is require for run the aaplication
